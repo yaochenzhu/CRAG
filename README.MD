@@ -11,7 +11,7 @@ which is a joint research from the University of Virginia [VAST LAB](https://jun
 
 ## 1. Reddit-v2 Dataset
 
-We are currently organizing the refined Reddit-v2 dataset. However, if you wish to reproduce the experiments, you can download the test set (with lots of intermediate results from GPT-4o and bi-level matching step), the learned EASE model, and additional movie-related metadata [[here]](). After downloading, simply unzip the files and place them in the data directory.
+We are currently organizing the refined Reddit-v2 dataset. However, if you wish to reproduce the experiments, you can download the test set (with lots of intermediate results from GPT-4o and bi-level matching step), the learned EASE model, and additional movie-related metadata [[here]](https://drive.google.com/file/d/1PLxHu-claqgI_yPm1zQHG97mHob7xmUz/view?usp=sharing). After downloading, simply unzip the files and place them in the data directory.
 
 
 ## 2. How to Run the Code
@@ -29,7 +29,7 @@ The numerical results, along with a simple plot resembling Fig. 2, will be saved
 
 ## 3. Caveats
 
-Please be aware that due to bandwidth constraints, we have set the sleep time between threads of OpenAI API calls to 0.02 seconds. For individual users, this may exceed the limit. You can adjust this number to better fit your bandwidth. Additionally, we did not encounter any failed requests during our experiments, so no post-fixing was implemented. If you anticipate API failures, you may need to modify the code to handle such scenarios.
+Please be aware that due to bandwidth that we have, we have set the sleep time between threads of OpenAI API calls to 0.02 seconds. For individual users, this may exceed the limit. You can adjust this number to better fit your bandwidth. Additionally, we did not encounter any failed requests during our experiments, so no post-fixing was implemented. If you anticipate API failures, you may need to modify the code to handle such scenarios.
 
 
 ## 🌟 Citation
