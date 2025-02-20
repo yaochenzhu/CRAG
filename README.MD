@@ -2,8 +2,8 @@
 
 These codes are associated with the following paper [[pdf]]():
 
->Collaborative Retrieval for Large Language Model-based Conversational Recommender Systems
->**Yaochen Zhu**, Chao Wan, Harald Steck, Dawen Liang, Yesu Feng, Nathan Kallus, Jundong Li
+>Collaborative Retrieval for Large Language Model-based Conversational Recommender Systems    
+>**Yaochen Zhu**, Chao Wan, Harald Steck, Dawen Liang, Yesu Feng, Nathan Kallus, Jundong Li    
 >The ACM Web Conference (WWW) 2025.
 
 which is a joint research from the University of Virginia [VAST LAB](https://jundongli.github.io/) and Netflix Inc.
