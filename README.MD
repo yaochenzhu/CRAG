@@ -14,7 +14,7 @@ which is a joint research from the University of Virginia [VAST LAB](https://jun
 We are currently organizing the refined Reddit-v2 dataset. However, if you wish to reproduce the experiments, you can download the test set (with lots of intermediate results from GPT-4o and bi-level matching step), the learned EASE model, and additional movie-related metadata [here](). After downloading, simply unzip the files and place them in the data directory.
 
 
-## 2. How to run the code
+## 2. How to Run the Code
 
 To execute the code, please follow these steps:
 
