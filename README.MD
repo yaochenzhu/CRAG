@@ -1,6 +1,6 @@
 # CRAG: Collaborative Retrieval for Large Language Model-based Conversational Recommender Systems
 
-These codes are associated with the following paper [[pdf]]():
+The code is associated with the following paper [[pdf]]():
 
 >Collaborative Retrieval for Large Language Model-based Conversational Recommender Systems    
 >**Yaochen Zhu**, Chao Wan, Harald Steck, Dawen Liang, Yesu Feng, Nathan Kallus, Jundong Li    
