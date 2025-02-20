@@ -18,20 +18,20 @@ We are currently organizing the refined Reddit-v2 dataset. However, if you wish 
 
 To execute the code, please follow these steps:
 
-**(a)** Set ```external = True``` in both evaluate.py and libs/model.py as Netflix has its own method for accessing OpenAI models.
+**a)** Set ```external = True``` in both evaluate.py and libs/model.py as Netflix has its own method for accessing OpenAI models.
 
-**(b)** Configure your ```OPENAI_API_KEY``` as a system environment variable.
+**b)** Configure your ```OPENAI_API_KEY``` as a system environment variable.
 
-**(c)** Run the following command:  
+**c)** Run the following command:  
 ```python evaluate.py```    
 The numerical results, along with a simple plot resembling Fig. 2, will be saved in the result folder.
 
 
 ## 3. Caveats
 
-**(a)** Please be aware that due to bandwidth that we have, we have set the sleep time between threads of OpenAI API calls to 0.02 seconds. For individual users, this may exceed the limit. You can adjust this number to better fit your bandwidth. 
+**a)** Please be aware that due to bandwidth that we have, we have set the sleep time between threads of OpenAI API calls to 0.02 seconds. For individual users, this may exceed the limit. You can adjust this number to better fit your bandwidth. 
 
-**(b)** Additionally, we did not encounter any failed requests during our experiments, so no post-fixing was implemented. If you anticipate API failures (or printed #error for processing LLM's outputs to be non-zero), you may need to modify the code to handle such scenarios.
+**b)** Additionally, we did not encounter any failed requests during our experiments, so no post-fixing was implemented. If you anticipate API failures (or printed #error for processing LLM's outputs to be non-zero), you may need to modify the code to handle such scenarios.
 
 
 ## 🌟 Citation
