@@ -18,11 +18,11 @@ We are currently organizing the refined Reddit-v2 dataset. However, if you wish 
 
 To execute the code, please follow these steps:
 
-a. Set ```external = True``` in both evaluate.py and libs/model.py as Netflix has its own method for accessing OpenAI models.
+***(i)*** Set ```external = True``` in both evaluate.py and libs/model.py as Netflix has its own method for accessing OpenAI models.
 
-b. Configure your ```OPENAI_API_KEY``` as a system environment variable.
+***(ii)*** Configure your ```OPENAI_API_KEY``` as a system environment variable.
 
-c. Run the following command:  
+***(iii)*** Run the following command:  
 ```python evaluate.py```    
 The numerical results, along with a simple plot resembling Fig. 2, will be saved in the result folder.
 
