@@ -6,7 +6,7 @@ The code is associated with the following paper [[pdf]]():
 >**Yaochen Zhu**, Chao Wan, Harald Steck, Dawen Liang, Yesu Feng, Nathan Kallus, Jundong Li    
 >The ACM Web Conference (WWW) 2025.
 
-which is a joint research from the University of Virginia [VAST LAB](https://jundongli.github.io/) and Netflix Inc.
+which is a joint research from the University of Virginia [VAST LAB](https://jundongli.github.io/), Cornell University, and Netflix Inc.
 
 
 ## 1. Reddit-v2 Dataset
