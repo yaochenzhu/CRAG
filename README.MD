@@ -29,7 +29,7 @@ The numerical results, along with a simple plot resembling Fig. 2, will be saved
 
 ## 3. Caveats
 
-Please be aware that due to bandwidth that we have, we have set the sleep time between threads of OpenAI API calls to 0.02 seconds. For individual users, this may exceed the limit. You can adjust this number to better fit your bandwidth. Additionally, we did not encounter any failed requests during our experiments, so no post-fixing was implemented. If you anticipate API failures, you may need to modify the code to handle such scenarios.
+Please be aware that due to bandwidth that we have, we have set the sleep time between threads of OpenAI API calls to 0.02 seconds. For individual users, this may exceed the limit. You can adjust this number to better fit your bandwidth. Additionally, we did not encounter any failed requests during our experiments, so no post-fixing was implemented. If you anticipate API failures (or printed #error for processing LLM's outputs to be non-zero), you may need to modify the code to handle such scenarios.
 
 
 ## 🌟 Citation
