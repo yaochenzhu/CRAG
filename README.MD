@@ -13,6 +13,7 @@ which is a joint research from the University of Virginia [VAST LAB](https://jun
 
 We are currently organizing the refined Reddit-v2 dataset. However, if you wish to reproduce the experiments, you can download the test set (with lots of intermediate results from GPT-4o and bi-level matching step), the learned EASE model, and additional movie-related metadata [[here]](https://drive.google.com/file/d/1PLxHu-claqgI_yPm1zQHG97mHob7xmUz/view?usp=sharing). After downloading, simply unzip the files and place them in the data directory.
 
+We will release the Reddit-v2 training set as soon as we finish the data organization. 
 
 ## 2. How to Run the Code
 
