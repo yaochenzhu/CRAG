@@ -15,7 +15,7 @@ We are currently organizing the refined Reddit-v2 dataset. However, if you wish 
 
 We will release the Reddit-v2 training set as soon as we finish the data organization. 
 
-# !!!!! Update !!!!!!
+## !! Update
 
 We decide to release the unorganized Reddit-v2 dataset first. Even though it contains lots of intermediate results from GPT-4o and bi-level matching, we believe that these results could be useful to many future researchers to avoid substantial API cost to extract the movie names and match them to the database.
 
