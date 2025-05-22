@@ -15,6 +15,14 @@ We are currently organizing the refined Reddit-v2 dataset. However, if you wish 
 
 We will release the Reddit-v2 training set as soon as we finish the data organization. 
 
+!!!!! Update !!!!!!
+
+We decide to release the unorganized Reddit-v2 dataset first. Even though it contains lots of intermediate results from GPT-4o and bi-level matching, we believe that these results could be useful to many future researchers to avoid substantial API cost to extract the movie names and match them to the database.
+
+The link to the Reddit-v2 dataset is [[here]](https://drive.google.com/file/d/19rEYwEOlVFs04-PYQFzhfbgxLu42-mvl/view?usp=sharing)
+
+Specifically, the EASE model is trained by combining all the training data in both large, small, and CIKM subdataset, and excluding the test data, which is a subset of the CIKM test set.
+
 ## 2. How to Run the Code
 
 To execute the code, please follow these steps:
