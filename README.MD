@@ -13,8 +13,6 @@ which is a joint research from the University of Virginia [VAST LAB](https://jun
 
 We are currently organizing the refined Reddit-v2 dataset. However, if you wish to reproduce the experiments, you can download the unorganized test set (with lots of intermediate results from GPT-4o and bi-level matching step), the learned EASE model [[here]](https://drive.google.com/file/d/1h_CIyLP0_pIF2kfVBS6jJOxy6Ux6TWkm/view?usp=drive_link), and additional movie-related metadata [[here]](https://drive.google.com/file/d/1PLxHu-claqgI_yPm1zQHG97mHob7xmUz/view?usp=sharing). After downloading, simply unzip the files and place them in the data directory.
 
-We will release the Reddit-v2 training set as soon as we finish the data organization. 
-
 ## !! Update
 
 We decide to release the unorganized Reddit-v2 dataset first. Even though it contains lots of intermediate results from GPT-4o and bi-level matching, we believe that these results could be useful to many future researchers to avoid substantial API cost to extract the movie names and match them to the database.
